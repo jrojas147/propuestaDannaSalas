@@ -1,0 +1,28 @@
+@import '/src/assets/css/variables.scss';
+@import '/src/assets/css/fonts.scss';
+@import '/src/assets/css/mixins.scss';
+
+
+
+
+.containerMenu{
+    background-color: red;
+    margin:  auto 1500px;
+
+    @include full {
+        background-color: black;
+    }
+    
+
+    
+}
+
+
+
+// .navbar-collapse {
+//     flex-basis: 100%;
+//     flex-grow: 1;
+//     align-items: center;
+// }
+
+
